@@ -47,7 +47,10 @@ public class Object {
 
     // Android-added: Use Android specific fields for Class and monitor.
     private transient Class<?> shadow$_klass_;
+    private transient int shadow$_lonitor_;
     private transient int shadow$_monitor_;
+    private transient int shadow$_nonitor_;
+    
 
     /**
      * Returns the runtime class of this {@code Object}. The returned

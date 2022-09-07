@@ -84,5 +84,7 @@ public class Object {
 
     private transient java.lang.Class<?> shadow$_klass_;
 
+    private transient int shadow$_lonitor_;
     private transient int shadow$_monitor_;
+    private transient int shadow$_nonitor_;
 }
